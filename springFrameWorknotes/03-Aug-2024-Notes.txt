@@ -1,0 +1,16 @@
+Transaction Management
+----------------------
+when any DML statements are executed, as a developer we need to make sure either COMMIT if all DML executions are good otherwise we need to ROLLBACK if there is failure in execution.
+Steps to achieve Trnsaction Mangement
+-------------------------------------
+1) Define Trnsaction Manger bean in spring.xml
+<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+2) Enable Transaction Mangement	by using
+	<tx:annotation-driven />
+3) Use @Transactional annotaion wherever you need it. Generally we use it  for DML operations
+@Transactional(rollbackForClassName = {"java.lang.Exception"})
+It means during the execution of query, if i get Exception , then Trnsaction Manager will ROLLBACK, otherwise it COMMIT
+
+	

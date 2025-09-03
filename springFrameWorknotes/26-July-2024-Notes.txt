@@ -1,0 +1,94 @@
+Agenda:
+	Revision
+	Framework ????
+	jar --> Java library
+	.class files
+	Framework means --> set of java libraries
+	https://spring.io/
+	Always we need to use : final or GA libraries
+	GA --> General Availability
+	Deployment Management Framework
+	-------------------------------
+	 The purpose of these frameworks is to download the java libraries from internet stores locally.
+	 Ex:
+		Maven
+		Gradle
+	Maven
+----------	
+	It is another project type like Java Project and Dynamic Web project
+		src
+			main
+				java --> all the main java classes
+				resorces --> All the configuration file like xml, properties, yaml
+			test
+				java--> all the java unit test cases
+				resources -> All the test configuration file like xml, properties, yaml
+		pom.xml
+			Project Object Model
+			Any java libray you want to download that should be mentioned in the form of dependencies in pom.xml
+		https://mvnrepository.com/
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-core</artifactId>
+			<version>2.3.20</version>
+		</dependency>
+		
+		jar --> Java Archieve
+			set of .class files
+		war --> Web Archieve
+			set of files like html/js/images/css/java classes
+		ear --> Enterprise  Archieve	
+			EJBs are wrapped into ear file
+		We can use maven project to create both java and web projects
+
+Student s1 = new Student()
+Student s2 = s1;
+s1 = null;
+s2 = ???
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+	com.nareshit.model
+	com.nareshit.servlet
+	com.nareshit.dao
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 
+	
+	Spring Framework
+	

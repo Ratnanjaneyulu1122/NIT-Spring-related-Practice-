@@ -1,0 +1,25 @@
+Agenda:
+	Revision
+	Bootstrap
+	https://getbootstrap.com/
+	Tables:
+	https://getbootstrap.com/docs/5.3/content/tables/#overview
+	Button
+	https://getbootstrap.com/docs/5.3/components/buttons/#base-class
+	
+		It is a CSS framework
+		<h1 style="....">Hello World</h1>
+		<style>
+			.colorCode{
+			 ...
+			  ....
+			  
+			}
+		</style>
+		
+		<h1 class="colorCode">Hello World</h1>
+		<link src="colors.css" />
+		
+		Validations
+		-----------
+		

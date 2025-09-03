@@ -1,0 +1,45 @@
+Agenda:
+	Revision
+	Spring JDBC
+		Install MySQL Database
+			https://dev.mysql.com/downloads/installer/
+			Windows (x86, 32-bit), MSI Installer	8.0.39	303.6M	
+			Go for all default setting modes and click Next
+			port : 3306
+			user : root
+			Very important to remeber the password
+		Install Mysql Workbench
+			https://dev.mysql.com/downloads/workbench/
+			Windows (x86, 64-bit), MSI Installer	8.0.38	41.7M	
+	
+	dependency:
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>6.1.11</version>
+		</dependency>
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<version>9.0.0</version>
+		</dependency>
+	Use Case : Save the student details into student table by using spring JDBC
+	
+	Steps to follow :
+	1) Create a maven project and the required dependencies
+	2) Create a table in the database and know the database properties:
+		driverClassName : com.mysql.cj.jdbc.Driver
+		url: jdbc:mysql://localhost:3306/nareshit-2pm
+		username: root
+		password: techno
+	3)	org.springframework.jdbc.datasource.DriverManagerDataSource
+			It is used to provide all the database properties and create the connection
+		create the  bean of the above class.
+	3) Create a spring XML and define DriverManagerDataSource bean with values 	injected
+	4) Create a java class having the following attributes:
+		stuId, firstName, lastName
+	5)Create StudentDao.java and StudentDaoImpl.java classes
+	6)Create an object of org.springframework.jdbc.core.JdbcTemplate in StudentdaoImpl.java. It is used to execute all the queries
+	5) 	
+	
+			

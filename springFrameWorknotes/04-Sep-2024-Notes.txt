@@ -1,0 +1,33 @@
+Agenda:
+	Revision
+	I want to build spring ORM layer without using XML
+		1) spring.xml 
+		2) employee.hbm.xml --> Done
+	To answer this, we need to use couple of annotations more.
+	We used already the following annotations:
+		@Transactional
+		@Controller
+		@RequestMapping
+		@Autowired
+		@Data
+		@AllArgsConstructor
+		@NoArgsConstructor
+	
+	New Annotations are :
+	---------------------
+	@Table --> To define table name. If you have class and table names are same, 
+			   it is optional
+	@Id --> To define as a primary key
+	@GeneratedValue --> To define generator value, ex: IDENTITY, SEQUENCE, AUTO etc.,
+	@Entity --> To define the class represents a database table
+	@Column --> To define table column name. If you have class attrubute name and
+				table column name are same, It is optional
+	
+	@Configuration --> To define the class as a spring configuration class
+	Spring support that it can have more than one XML configurations
+		Ex: for a multi module based application, we create a separate spring XML 
+			for every module
+	
+	@Bean --> To define spring bean
+	@EnableTransactionManagement --> To enable the transaction behaviour by spring
+	@ComponentScan --> To provide basic package path to find spring beans.

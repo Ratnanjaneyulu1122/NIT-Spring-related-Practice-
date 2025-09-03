@@ -1,0 +1,11 @@
+Agenda:
+	Revision
+	@Component --> --> used at class level
+	@Service -[-> 
+	@Bean --> used at method level
+	
+	Use Case : Without having any XMLs, create a Spring MVC
+	
+	WebApplicationInitializer --> Need to implemnt this interface to replace web.xml
+	WebMvcConfigurer --> Need to implement this interface to configure MVC features
+	

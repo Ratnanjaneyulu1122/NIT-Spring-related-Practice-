@@ -1,0 +1,30 @@
+Agenda :
+	ModelAndView class is used to setup
+		1) View name and 
+		2) Model to be displayed on the View
+	syntax:
+		ModelAndView mv = new ModelAndView("view","key of Model","model");
+		or
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("view");
+		mv.addObject("key","model");
+		
+	InternalResourceViewResolver
+		It is used to add prefix and suffix for the given view name in the controller class.
+		
+	In the below code snippet:
+	
+	@RequestMapping("/showStudent")
+	public String showStudent(Model model) {
+		model.addAttribute("st", new Date());
+		return "student";
+	}	
+	
+	Spring framework return to student.jsp and where we can retrieve the model --> date by using the key --> st	
+		
+	Model --> it is class to store any models to be sent back to view layer (JSP)
+	
+	
+		
+		
+		

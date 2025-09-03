@@ -1,0 +1,63 @@
+Agenda:
+	Revision
+	ORM
+		Hibernate
+		https://hibernate.org/
+		Hibernate is a Java framework that simplifies the development of Java application to interact with the database.
+		It is an open source, lightweight, ORM (Object Relational Mapping) tool.
+	
+		<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>6.6.0.Final</version>
+		</dependency>
+		
+		Hibernate expects 2 different types of configurations
+		1) Main configuration
+			It requires to define the database connection details
+			driverClass
+			jdbcUrl
+			username and 
+			password
+			default : hibernate.cfg.xml
+			cfg --> configuration
+		2) Entity Configuration
+			employeee       Employee.java
+				id              id
+				name            name
+				address         address
+				salary          salary
+			we define the mapping details between database table and java class
+			employee.hbm.xml
+			hbm --> Hibernate Mapping
+	
+	Use Case : To store a java object into database Table
+	
+	Steps to crerate Hibernate Project
+	----------------------------------
+	1) Create a maven project and add the below dependency
+	
+		<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>6.6.0.Final</version>
+		</dependency>
+	2) Make sure about database table --> employee
+	3) Create a hibernate main configuration --> hibernate.cfg.xml
+	4) Create a employee entity configuration file --> employee.hbm.xml	
+		https://www.geeksforgeeks.org/hibernate-example-using-xml-in-eclipse/
+
+	5) Write a test program to verify
+	
+	HW:
+	Write a Hibernate application to store student details:
+		Table : 	student
+		Columns:	stu_id, first_name, last_name, mobile, address
+		
+		
+		
+		
+		
+		
+		
+		

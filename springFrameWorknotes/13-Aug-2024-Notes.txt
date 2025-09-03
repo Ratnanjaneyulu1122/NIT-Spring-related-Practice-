@@ -1,0 +1,30 @@
+Agenda:
+	Revision
+	Remove all the dependencies under the following folder to resolve Maven build dialog issues in Myeclipse:
+		C:\Users\<<user>>\.m2\repository
+	Table : employee
+		id --> int --> PK
+		name --> varchar(50)
+		address --> varchar(50)
+		salary --> decimal(10,2) --> 4364784.88
+		
+	Use Case : Get all the Data from employee table and show it on to the JSP using Spring MVC.
+	components :
+		1) index.jsp
+		2) show_employees.jsp
+		3) EmployeeController.java
+			/getAllEmployees
+		4) EmplyeeDao.java  --> interface
+			 getAllEmployees()
+		5) EmployeeDaoImpl.java --> implementation class	 
+			override -->  getAllEmployees()
+		6) EmployeeRowMapper.java	
+		7) Employee.java
+		
+		
+		
+		
+		
+		
+		
+	

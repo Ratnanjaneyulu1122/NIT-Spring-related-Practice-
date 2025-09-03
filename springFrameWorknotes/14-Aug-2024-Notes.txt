@@ -1,0 +1,33 @@
+Agenda:
+	Revison
+	Debugging :
+		It is a process of executing the java statements line by line by using functional keys
+		F6 --> line by line
+		F8 --> To move next break point or end
+	UseCase : Store the Employee details into the database	using Spring MVC
+	components:
+	1) index.jsp --> welcome page
+	2) add_employee.jsp --> used to capture employee details
+		id, name, address and salary details
+	3) EmployeeController.java
+		/addEmployee --> to show add_employee.JSP
+		/saveEmployee --> to store the employee details into database
+	4) 	EmployeeDao.java and EmployeeDaoImpl.java 
+		-> implement saveEmployee logic
+	5) success.jsp --> To the success 	
+		
+	Tasks:
+		1) Display add_employee.jsp using URL --> /addEmployee
+			--> Done!!
+		2) Enter all employee details and click on save Employee button should store all details into database table --> employee. --> /saveEmployee
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

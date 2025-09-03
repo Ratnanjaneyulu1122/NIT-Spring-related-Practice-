@@ -1,0 +1,19 @@
+Agenda:
+	Revision
+	Use Cases:
+		1) Cancel functionality in add_employee.jsp
+			--> to go home
+			<a href="getAllEmployees">Cancel</a>
+		2)Remove the employee ID value provision in add_employee.jsp
+			In MySQL, Enable AI feature to increment the id value automatically by the database.
+			insert into employee values(?,?,?,?) --> when you refer all columns;
+			insert into employee(name,address,salary) values ('Hello','BHEL',23456);
+			changed the following components:
+				1)EmployeeDaoImpl.java
+				2)add_employee.jsp
+				3)EmployeeController.java
+		3) Delete confirmation whether to delete or not		
+			show_employees.jsp --> add confirmation for delete button
+			
+		
+	

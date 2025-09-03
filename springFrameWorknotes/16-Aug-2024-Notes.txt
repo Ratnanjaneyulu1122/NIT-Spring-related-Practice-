@@ -1,0 +1,28 @@
+Agenda:
+	Revision
+	Use Case : Create a MVC application where display the following functionalities in it.
+		1) Display All Employees
+		2) Add the Save Employee functionality
+		3) Home page
+	components:
+		1) index.jsp --> home page
+		2) EmployeeController.java
+			/saveEmployee
+			/getAllEmployees --> To display all the employees in the show_employees.jsp
+			/addEmployee --> It displays employee JSP (add_employee.jsp) and save the details into database.
+		3) add_employee.jsp
+		4) show_employees.jsp
+		5) EmployeeDao.java
+				getAllEmployees()
+				saveEmployee()
+		6) EmployeeDaoImpl.java
+		7) EmployeeRowMapper.java
+		
+		crtl + shift + F --> To format .java/xml file
+		ctrl + F11 --> to execute the program
+		
+		
+		
+		
+		
+		

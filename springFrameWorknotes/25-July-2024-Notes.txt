@@ -1,0 +1,85 @@
+Agenda:
+	Revision
+	Distributed applications
+		Amazon payment gateways
+			UPI, netbacking , Credit/Debit transactions...
+		ATM Machines	
+	Presentation Layer Technologies
+		HTML/CSS/JS/VS
+		Servlet/JSP
+		Java Frameworks
+			Struts 1/2
+			Java Server Faces (JSF)
+			Wicket --> https://wicket.apache.org/
+			Tapestry --> https://tapestry.apache.org/
+			Spring MVC
+		JavaScript Frameworks
+			ReactJS
+			Angular
+			VueJS
+			ExtJS
+			BackboneJS
+	Business Layer Technologies
+		EJB --> Enterprise Java Beans
+			It is one of JEE specification
+			Tomcat 9 used JEE8
+				It implemneted Servlet 4.0
+			Tomcat 10 used JEE9
+				It implemneted Servlet 5.0
+		Spring Trnsactions
+	
+	Data Access Layer Technologies	
+		JDBC
+		ORM --> Object Relational Mapping
+			Hibernate
+			IBatis
+			JBatis
+			JDO -- Java Data Object
+			JPA --> Java persistence API
+				It is one of JEE specification
+		Spring JDBC
+		Spring ORM
+		Spring Data
+	Spring is a multi utility Framework because we can use this technology in all the layers
+
+	Software Installtions:
+	----------------------
+	1) Eclipse IDE for Enterprise Java and Web Developers
+	https://www.eclipse.org/downloads/packages/
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-06/R/eclipse-jee-2024-06-R-win32-x86_64.zip
+	2) Install winrar tool
+	3) Install Mysql
+	4) Download Tomcat 9 and 10
+		https://tomcat.apache.org/download-10.cgi
+		64-bit Windows zip 
+		https://tomcat.apache.org/download-90.cgi
+		64-bit Windows zip 
+	
+	
+	
+	
+	
+		
+		
+				
+				
+				
+				
+				
+			
+
+
+
+
+
+
+		
+			
+			
+			
+			
+			
+	.
+	.
+	.
+	next Topic ?

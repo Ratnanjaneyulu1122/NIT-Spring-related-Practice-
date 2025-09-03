@@ -1,0 +1,46 @@
+Agenda:
+	Revision
+	Customization of error messages
+	steps to follow:
+	-----------------
+	1) Create a file errors.properties where define all the custom error messages as key and value pairs
+		NotEmpty.employee.name=Employee name should not be empty.
+	2)Define the following beans in the spring.xml.
+		<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+			<property name="basename" value="errors"/>
+		</bean>
+		<bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+			<property name="validationMessageSource" ref="messageSource"/>
+		</bean>
+	
+	ORM
+	---
+	Object relational Mapping Framework
+	I want to store Java object into Datbase without writing query???
+	Hibernate
+		It is a java framework which is used to talk to database
+		
+	
+	
+	try{
+		.......
+		.......
+	}catch(Exception ex){
+		......
+		......
+	}finally{
+		......
+		.....
+		.....
+	}
+	
+	
+	try(......){
+		.......
+		.......
+	}catch(Exception ex){
+		......
+		......
+	}
+	
+	https://www.geeksforgeeks.org/hibernate-validator-with-example

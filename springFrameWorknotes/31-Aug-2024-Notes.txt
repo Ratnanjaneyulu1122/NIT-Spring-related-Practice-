@@ -1,0 +1,33 @@
+Agenda:
+	Revision
+	Queries
+		SQL --> Strucred Query Language
+		We used to write select queries only in Hibernate
+		HQL --> Hibernate Query Language
+		select * from employee --> SQL
+		Select * from Employee --> HQL
+		from Employee --> HQL
+		select first_name, last_name from employee --> SQL
+		Select firstName, lastName from Employee --> HQL
+		
+		SQL						HQL
+		employee --> Table		Employee --> Java class
+		first_name --> column	firstName --> Java attribute
+		Session object is required to run any SQL/HQL query
+		
+		Syntax: to execute HQL
+		Session --> sess --> sess.createQuery(HQL) --> Query object
+		
+		Syntax: to execute SQL
+		Session --> sess --> sess.createNativeQuery(SQL) --> Query object
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

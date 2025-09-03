@@ -1,0 +1,82 @@
+Spring Framework, Spring Boot and Microservices
+-----------------------------------------------
+LTS --> Long Term Support
+@WebServlet("/test")
+
+JSE --> Java Standard Edition
+	JDK
+	
+JEE --> Java Enterprise Edition
+	Set of specifications ???
+	JEE 8 
+	Servers 2 kinds
+		Web Servers
+			light weight (10MB)
+			Tomcat
+				JEE --> Servlet, JSp, EL
+			Jetty
+			Resin
+			Undertow
+		Application Servers
+		https://www.oracle.com/java/technologies/java-ee-8.html
+			When all the JEE specifications are implemneted
+			Glassfish
+			Jboss
+			Weblogic --> 1GB
+			WebSphrere
+			.
+			,..
+Types of applications
+----------------------
+Standalone applications
+	One user can use at a time
+client server based or 2 tier based
+	More than 1 user can able to access the applications
+3 tier model applications or Web Applications
+	Any application which is running inside of browser is called web application
+	
+Next Topic : Importance Frameworks
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		
+		
+		
+		
+	
+	
+JME
+
+
+
+
+
+
+
+
+
+
+

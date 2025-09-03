@@ -1,0 +1,14 @@
+Agenda:
+	Revision
+		getHibernatetemplate().loadAll(Emoployee.class)
+			It fetches all the employees records in the employee table and return them as List<Employee>
+						
+	Update the exisitng employee web application 
+		Replace the Spring JDBC with Spring-Hibernate layer
+		javax								jakarta
+		------								--------
+		Tomacat 9 or lower					Tomcat 10 or higher
+		Spring 5.x or lower					Spring 6.x or higer
+		Servlet 4.x	or lower				Servlet 5.x or higer
+		Hibernate 5.x or lower				Hibernate 6.x or higer
+		Hibernate Validator 5.x or lower	Hibernate Validator 5.x or higer

@@ -1,0 +1,34 @@
+Agenda:
+	Revision
+	Always make sure to have the same version across the different modules of the spring framework.
+	In Maven, <properties> tag is used to define all the dependency versions
+	Ex:
+	<properties>
+		<spring.version>6.1.11</spring.version>
+		<mysql-connector.version>9.0.0</mysql-connector.version>
+	</properties>
+	
+	Lombok Library
+		This java librray used to create setter, getter, tostring, constructor and all by using Annottaions
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>1.18.34</version>
+			</dependency>
+
+		@Setter --> It generates setter methods
+		@Getter --> It generates getter methods
+		@ToString --> It generates toString method
+		@Data
+			It should generate Getter, Setter, toString and all.
+		@AllArgsConstructor --> It generates a constructor will all attributes
+		@NoArgConstructor --> It generates default constructor
+		
+		To setup Lombok library
+		-----------------------
+		1) Copy lombok.jar file in eclipse root folder
+		2) Make the following entry in eclipse.ini file
+			javaagent <location of lombok library>
+			-javaagent:D:\Naresh-IT\2PM-Batch\eclipse\lombok.jar
+		3) Restart eclipse
+		

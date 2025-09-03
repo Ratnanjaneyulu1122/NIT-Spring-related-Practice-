@@ -1,0 +1,23 @@
+Agenda:
+	Edit Functionality Steps
+	------------------------
+	1) Create a JSP --> update_employee.jsp
+		When we click on edit button, we need to show that data on to this JSP
+		URL --> /editEmployee --> EmployeeController.java
+	2) Whatever data updated in update_employee.jsp, that needs to be stored into database.
+		URL --> /updateEmployee --> EmployeeController.java
+	3) Finally once the data is updated in the database, show all employees functionality
+
+	If we want to customize the spring Web MVC xml file location, It needs to define the following configuration in web.xml
+	Parameter Name : contextConfigLocation
+	<servlet>
+  	<servlet-name>abc</servlet-name>
+  	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  	<init-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:spring.xml</param-value>
+    </init-param>
+	</servlet>
+	
+	@ModelAttribute
+	

@@ -1,0 +1,5 @@
+Agenda:
+	Revision
+	@Controller --> To denote the class as a spring MVC controller
+	@RequestMapping --> To represent the URL
+	

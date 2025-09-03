@@ -1,0 +1,23 @@
+Agenda:
+	Revision
+	Spring Context Reading
+		ClassPathXmlApplicationContext
+			It is used to read spring xml when xml is available in classpath.
+			Any file defined in resources folder is available through classpath
+		
+		FileSystemXmlApplicationContext
+			It is used to read the spring xml with specific location of xml
+			Ex: new FileSystemXmlApplicationContext("c:\test\spring.xml");
+		
+		AnnotationConfigApplicationContext
+			It is used to create spring context when we use @Configuration annottaion.
+	<Property /> tag is used call respective setter method to assign a value.
+	ex:
+		<Property name="firstName" value="Hello-2"/>
+		spring call setFirstName() method for the above line.
+	<constructor-arg /> is used to call the constructor argument
+	constructor arguments start with zero
+	
+Spring JDBC
+-----------	
+	

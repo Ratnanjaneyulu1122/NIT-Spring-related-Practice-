@@ -1,0 +1,56 @@
+Agenda:
+	Revision
+	spring-ORM
+	POJO --> Plain Old Java Object
+	
+	javax						jakarta
+	------						--------
+	Tomacat 9 or lower			Tomcat 10 or higher
+	Spring 5.x or lower			Spring 6.x or higer
+	Servlet 4.x	or lower		Servlet 6.x or higer
+	Hibernate 5.x or lower		Hibernate 6.x or higer
+	
+	Spring Hibernate Integration
+	----------------------------
+	1) Create maven java project and added the following dependencies
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>5.3.39</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>5.3.39</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.6.15.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<version>9.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.34</version>
+		</dependency>
+	2) Create a spring configuration file and define the following spring beans
+			dataSource,
+			sessionFactory,
+			transactionManager
+	3) Create Employee.java and employee.hbm.xml
+	4) Create EmployeeDao and EmployeeDaoImpl.java classes
+	5) To inject sessionFactor bean, Spring is recomending to extend the class	HibernateDaoSupport.java.
+	6) Define EmployeeDaoImpl class in spring XML and provide sessionFactory injection
+	7) Use getHibernateTemplate() methid to do all hibernate CRUD operations.
+	
+	
+
+
+
+
+	

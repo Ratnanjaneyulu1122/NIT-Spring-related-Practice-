@@ -1,0 +1,29 @@
+Agenda:
+	Revision
+	Spring Tag Library
+	JSP Special Tags
+		<% %> --> scriptlet 
+			To write any java code
+		<%= %> --> expression
+			To print values on the browser
+			<% out.println("Hello World"); %>
+			<%= "Hello World" %>
+			
+		<%@ %> --> directive
+			<%@page %> --> Page Directive
+				To import any java class in JSP
+			<%@include %> --> include directive
+				To include thew output of any JSP into any other JSP
+			<%@taglib %> --> Taglib Directive
+				It is a special library where we can make use of any existing tag libraries
+				Ex:
+					JSTL --> Java Server Tag Library
+					Spring Tag Library
+					
+		<%! %> --> Declaration
+			To delcare any variables or methods.
+
+		
+	
+	@ModelAttribute
+	

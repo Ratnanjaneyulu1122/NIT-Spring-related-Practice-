@@ -1,0 +1,36 @@
+Agenda:
+	Revision
+	Implement all CRUD operations in DAO class
+	Dialect:
+	--------
+	The dialect specifies the type of database used in hibernate so that hibernate generate appropriate type of SQL statements.
+	Hibernate provides different dialects based on type of database
+	But in the current release, it is not required to mention because Hibernate is intelligent to pull the respective dialect based on database used.
+	Ex:
+		MySQLDialect
+		OracleDialect
+		DB2Dialect
+		etc.,
+	Generator:
+    ---------
+	A generator class is used to generate an ID for an object, which is going to be inserted in the database as a primary key. The ID is a unique identifier for the objects of the persistent class. 
+	Hibernate provides a  <generator> tag to represent the generator.
+	Hibernate provides list of generators for different databases
+		assigned
+		foreign
+		hilo
+		identity  --> MySQL
+		increment --> MySQL
+		native
+		sequence --> Oracle
+		uuid
+		
+	Student s1 = new Student();
+	Student s2 = new Student();
+	Student s3 = new Student();
+	
+	s1....
+	
+	static int num = 10 
+	
+	

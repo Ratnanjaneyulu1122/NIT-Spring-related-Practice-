@@ -1,0 +1,69 @@
+Agenda:
+	Revision
+	Spring Framework
+		Spring context
+		Spring JDBC
+		Spring Transactions
+		Spring MVC
+		Spring AOP
+		Spring ORM
+	Spring context
+-------------------
+The purpose of this module is to how to create a java object
+Bean is nothing but object
+standard file name --> applicationContext.xml
+<beans> --> root element
+	
+	<bean id="s1" class="com.nareshit.model.Student">
+	</bean>
+	Student s1 = new Student()
+</beans>
+
+Design Pattern : A good solution for a commonly repeated problem statment.
+	Singleton : It creates only one object across the application.
+				Ex : Logging, Database Connection
+	MVC : Model View Controller
+		  We will design the components as functionally separable.
+		  
+	VO : Value Object 
+		public void saveStudent(String name, Sting address, String mobile){
+			.......
+		}
+		class Student{
+			String name, 
+			Sting address, 
+			String mobile
+		}
+		public void saveStudent(Student st){
+			.......
+		}
+	DAO : Data Access Object
+		It is always good to defines all CRUD opeartions in asingle class
+		Ex: Table : student --> Create StudentDao.java
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
